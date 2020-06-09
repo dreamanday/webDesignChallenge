@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avg Pollution Trends</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/index.html#">World Pollution Data</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-md-auto">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/visual1.html">Avg Deaths Trends</a>
+                  <a class="dropdown-item" href="#">Avg Pollution Trends</a>
+                  <a class="dropdown-item" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/visual3.html">Avg Deaths Map</a>
+                  <a class="dropdown-item" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/visual4.html">Avg Pollution Map</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/index.html#">Home</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/comparison.html">Comparison</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/data.html">Data</a>
+            </li>
+
+          </ul>
+        </div>
+    </nav>
+
+
+    <div class="p-3 mb-2 bg-secondary text-white">
+        <h1>Avg Pollution Trends</h1>
+        <p>
+            Here we see a map of exposure to contaminant particles for 1990 and from 2010 to 2016. We see a consistent decrease when we take the average for world data, this means that as a whole we are making progress towards
+            a cleaner planet, however we cannot see here individual performance, it is important to take in consideration outliers as well. Also we see an interesting efect in 2015, the world gave up three years worth of
+            progress in a single one, this was due to the infamous diesel gate case. It is amazing to see how corruption, fraud and thirst for growth and profit can get in the way of commitment to the enviroment.
+        </p>
+
+    </div>
+
+    <div class="container mx-my-auto">
+        <img src="../webVisualizations/visualizations/evo_world_exposure_scatter.png" class="img-fluid" alt="Responsive image">
+    </div>
+
+    <div class="p-3 mb-0 bg-secondary text-white">
+        <h2>Visualizations</h2>
+        
+        <div class="container mx-my-auto">
+            <div class="row mx-my-auto">
+
+
+                <div class="mr-3 mb-3">
+                    <div class="card" style="width: 15rem;">
+                        <img src="../webVisualizations/visualizations/evo_world_death_rates_scatter.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <a href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/visual1.html" class="btn btn-primary stretched-link">Go to visual</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mr-3 mb-3">
+                    <div class="card" style="width: 14.1rem;">
+                        <img src="../webVisualizations/visualizations/world_average_death_rate.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <a href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/visual3.html" class="btn btn-primary stretched-link">Go to visual</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mr-3 mb-3">
+                    <div class="card" style="width: 14.1rem;">
+                        <img src="../webVisualizations/visualizations/world_mean_exposure_PM2.5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <a href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/visual4.html" class="btn btn-primary stretched-link">Go to visual</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="card bg-white text-black col-sm-12">
+        <div class="card-header">
+            @Copyright Julio Torres productions 2020 (sources: ourworldindata.com and OCDE data bank)
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

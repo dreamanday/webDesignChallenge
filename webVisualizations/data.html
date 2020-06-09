@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/index.html">World Pollution Data</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-md-auto">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/visual1.html">Avg Deaths Trends</a>
+                  <a class="dropdown-item" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/visual2.html">Avg Pollution Trends</a>
+                  <a class="dropdown-item" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/visual3.html">Avg Deaths Map</a>
+                  <a class="dropdown-item" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/visual4.html">Avg Pollution Map</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/index.html">Home</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="file:///Users/jtst/Documents/Bootcamp/Homeworks/10%20webDesignChallenge/webVisualizations/comparison.html">Comparison</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Data</a>
+            </li>
+
+          </ul>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5 p-3 mb-5 bg-secondary text-white">
+        <h1>Data</h1>
+        <hr>
+        <p class="text-center">This document contains the data used for the visualizations.</p>
+
+        <div class="table-responsive">
+            <table class="table-dark">
+                <tbody>
+                    <iframe src="../webVisualizations/visualizations/pollution_html.html" frameborder="0" width="100%" height="300" style="border:1px solid black"></iframe>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-lg-12 ml-auto mb-4">
+            <a href="../webVisualizations/visualizations/PM2_5_pollution_exposure.csv" class="btn btn-primary stretched-link">Download Data</a>
+        </div>
+    </div> 
+
+    <div class="card bg-white text-black col-sm-12">
+        <div class="card-header">
+            @Copyright Julio Torres productions 2020 (sources: ourworldindata.com and OCDE data bank)
+        </div>
+    </div>
+       
+</body>
+</html>
